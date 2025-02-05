@@ -4,7 +4,7 @@ import AppRouter from "./router/AppRouter";
 
 function App() {
   return (
-    <BrowserRouter basename="/MST">
+    <BrowserRouter basename="/MST/">
       <AppRouter />
     </BrowserRouter>
   );
