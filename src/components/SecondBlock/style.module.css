@@ -1,0 +1,53 @@
+@import url("../../var.css");
+.fullwidth {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+.container {
+  max-width: 1200px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.block1 {
+  width: 40%;
+  display: flex;
+}
+
+.block1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.block2 {
+  width: 60%;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+  .block1,
+  .block2 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+  .block1,
+  .block2 {
+    width: 100%;
+  }
+}

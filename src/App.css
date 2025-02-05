@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1920px;
+  text-align: center;
+  height: 100%;
+}
+@font-face {
+  font-family: "Intro Bold";
+  src: url("./assets/fonts/Intro-Bold.eot");
+  src: local("Intro-Bold"),
+    url("./assets/fonts/Intro-Bold.eot") format("embedded-opentype"),
+    url("./assets/fonts/Intro-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Intro-Bold.woff") format("woff"),
+    url("./assets/fonts/Intro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Intro Regular";
+  src: url("./assets/fonts/Intro-Regular.eot");
+  src: local("Intro-Regular"),
+    url("./assets/fonts/Intro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Intro-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Intro-Regular.woff") format("woff"),
+    url("./assets/fonts/Intro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Intro Book";
+  src: url("./assets/fonts/Intro-Book.eot");
+  src: local("Intro-Book"),
+    url("./assets/fonts/Intro-Book.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Intro-Book.woff2") format("woff2"),
+    url("./assets/fonts/Intro-Book.woff") format("woff"),
+    url("./assets/fonts/Intro-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Intro Regular", sans-serif;
+}
+h1 {
+  font-family: "Intro Regular", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  padding: 10px 0;
+  color: var(--dark-text-color);
+}
+h2 {
+  font-family: "Intro Bold", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  padding: 10px 0;
+  color: var(--dark-text-color);
+}
+h3 {
+  font-family: "Intro Book", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 10px 0;
+  color: var(--dark-text-color);
+}
+p,
+span {
+  font-family: "Intro Book", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 5px 0 0 0;
+  color: var(--dark-text-color);
+}
+.price {
+  font-family: "Intro Regular", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 750px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}

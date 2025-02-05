@@ -1,0 +1,15 @@
+@import url("../../var.css");
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--light-text-color);
+  width: 100%;
+  z-index: 1;
+}
+@media screen and (max-width: 750px) {
+  .logo {
+    width: 75%;
+  }
+}

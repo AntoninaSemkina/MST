@@ -1,0 +1,53 @@
+@import url("../../var.css");
+.fullwidth {
+  width: 100%;
+  border-top: 1px solid var(--dark-text-color);
+}
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  min-height: 80px;
+  top: 0;
+  margin: auto;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: transparent;
+  align-items: center;
+}
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin: auto;
+  background-color: transparent;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+  .btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .socialMedia {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .socialMedia {
+    width: 100%;
+  }
+}

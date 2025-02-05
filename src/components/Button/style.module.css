@@ -1,0 +1,26 @@
+@import url("../../var.css");
+
+.btn {
+  border-radius: 4px;
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+  border: 0px;
+  font-family: "Intro Regular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+  .btn {
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .btn {
+    height: 40px;
+    font-size: 12px;
+  }
+}

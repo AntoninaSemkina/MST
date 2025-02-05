@@ -1,0 +1,56 @@
+@import url("../../var.css");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 5px;
+}
+.mainBlock {
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+  text-align: start;
+}
+.mainBlock input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.mainBlock h2,
+.mainBlock p {
+  color: var(--dark-text-color);
+}
+.name,
+.email {
+  font-family: "Intro Bold";
+  font-size: 10px;
+  color: var(--dark-text-color);
+  border: 1px solid var(--dark-text-color);
+  border-radius: 5px;
+  padding: 0 5px;
+}
+@media screen and (max-width: 900px) {
+  .container {
+    width: 60%;
+  }
+  .mainBlock h2 {
+    font-size: 24px;
+  }
+  .mainBlock p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .mainBlock h2 {
+    font-size: 20px;
+  }
+  .mainBlock p {
+    font-size: 12px;
+  }
+}
